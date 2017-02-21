@@ -1,1 +1,1 @@
-var QRCode = require("qrcode.js");
+new QRCode(document.getElementById("qrcode"), "http://simplon.co");

@@ -1,5 +1,7 @@
-var qrcode = require("qrcode-ternimal");
+// A executer avec node dans le terminal
 
-qrcode.generate("This will be small QRCode, eh!", {small: true},functioin(qrcode){
-  console.log(qrcode);
+var qrcode = require('qrcode-terminal');
+
+qrcode.generate('This will be a small QRCode, eh!', {small: true}, function (qrcode) {
+    console.log(qrcode)
 });

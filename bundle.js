@@ -68,9 +68,9 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-var QRCode = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"qrcode.js\""); e.code = 'MODULE_NOT_FOUND';; throw e; }()));
+new QRCode(document.getElementById("qrcode"), "http://simplon.co");
 
 
 /***/ })
